@@ -1,4 +1,4 @@
-# group-coding
+# Group-coding
 
 This is a group coding repository in which we'll add 5 codes daily.
 
