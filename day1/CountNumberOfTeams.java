@@ -1,7 +1,18 @@
 /*
-Auther -> Saurabh Verma
-logic-> aniruddha_agrawal  
+Auther -> Saurabh Verma  
 Problem link -> https://leetcode.com/problems/count-number-of-teams/
+
+Approach->
+teams = 0
+loop i=0 to n
+    
+    //treat each ith index as middle element of the team (x, y, z)
+    lesser = find lesser value count to the left side of i
+    greater = find greater value count to the right side of i
+    cuont += lesser in left * greater in right
+    count += greater in left * lesser in right
+end loop
+return teams
 */
 package day1;
 class Solution {
