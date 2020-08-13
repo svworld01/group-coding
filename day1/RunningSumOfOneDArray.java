@@ -1,7 +1,11 @@
-package day1;
 /*
 Solved by - Saurabh Verma
 Problem link - https://leetcode.com/problems/running-sum-of-1d-array/
+
+Approach->
+loop from index 1 to n
+    add previous value to current index 
+end loop
  */
 class Solution1{
 
