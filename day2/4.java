@@ -1,6 +1,6 @@
 /*
 Auther - Saurabh Verma
-Problem link -  https://leetcode.com/problems/xor-operation-in-an-array/
+Problem link -   https://leetcode.com/problems/3sum/
 Explanation - https://www.youtube.com/watch?v=qJSPYnS35SE
 */
 import java.util.Arrays;
