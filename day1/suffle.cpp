@@ -1,5 +1,5 @@
 
-//solution by  :  Vivek pandey
+/*solution by  :  Vivek pandey
 
 problem link  : https://leetcode.com/problems/shuffle-the-array/
 
@@ -9,7 +9,7 @@ approach
     inserting element in array like new arr[0] = prev arr[0], new arrr[1] = prev arr[n]......and so..on
     
     
-
+*/
 
 class Solution {
 public:
