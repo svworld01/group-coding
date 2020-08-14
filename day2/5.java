@@ -1,3 +1,7 @@
+/*
+Auther - Saurabh Verma
+Problem link -  https://leetcode.com/problems/3sum/
+*/
 package day2;
 
 import java.util.ArrayList;
