@@ -15,7 +15,7 @@ class Solution {
             high = n-1;
             while(low<high){
                 int sum = nums[i]+nums[low]+nums[high];
-                int diff = Math.abs(target - sum) +1;
+                int diff = Math.abs(target - sum);
                 if(diff < min){
                     min = diff;
                     ans = sum;
