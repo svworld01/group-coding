@@ -4,6 +4,7 @@
 # https://leetcode.com/problems/remove-element/
 
 
+## Solution 1
 """
 Two pointer solution.
 """
@@ -34,6 +35,19 @@ class Solution:
             if nums[p1] == val and nums[p2] != val:
                 nums[p1], nums[p2] = nums[p2], nums[p1]
                 p2 -= 1
-                
-                
+
+## Solution 2
+"""
+consider the elements to be removed as not visible.
+we keep copying the visible elements(not equal to given value) in-place.
+"""
+
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        pointer = 0
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[pointer] = nums[i]
+                pointer += 1
+        return pointer              
                 
