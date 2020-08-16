@@ -9,11 +9,9 @@ class Solution:
         arr = []
         i = 0
         j = n
-        while (i<n) and (j < 2*n):
+        while (i < n) and (j < 2 * n):
             arr.append(nums[i])
             arr.append(nums[j])
-            i +=1
-            j +=1
+            i += 1
+            j += 1
         return arr
-        
-        

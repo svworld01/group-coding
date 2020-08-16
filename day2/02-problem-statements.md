@@ -1,7 +1,9 @@
-#DailyCodeDay2
-#ProblemStatements
+## DailyCodeDay2
+
+### ProblemStatements
 
 Hey! This is day 2 of DailyCode. Here are the links of 5 problems of LeetCode.
+
 All problems are from arrays section.
 
 1. Number of Good Pairs

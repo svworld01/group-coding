@@ -1,7 +1,12 @@
-#DailyCodeDay1
-#ProblemStatements
+## DailyCodeDay1
+
+### ProblemStatements
+
 Hey! This is day 1 of DailyCode. Here are the links of 5 problems of LeetCode.
+
 All problems are from arrays section.
+
+
 1. Running Sum of 1d Array
 https://leetcode.com/problems/running-sum-of-1d-array/
 
