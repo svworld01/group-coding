@@ -1,7 +1,9 @@
 /*
 Auther - Saurabh Verma
-Problem link - 
+Problem link - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 Aproach - Using Priority Queue to storing values
+Space Complexity - O(k)
+Time Complexity - O(n + klogk)
 */
 class Solution {
   //node for priority queue for storing value along with row and col
