@@ -58,3 +58,32 @@ class Solution {
         return merged;
     }
 }
+
+/**********
+SOLUTION 2 using PriorityQueue
+Time Complexity - O(Nlogk)
+Space Complexity - O(N) + O(k)
+***********/
+public class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        if (lists==null||lists.length==0) return null;
+        
+        PriorityQueue<ListNode> queue= new PriorityQueue<>(lists.length,(x,y)->Integer.compare(x.val, y.val));
+        
+        ListNode mergedList = new ListNode(0);
+        ListNode tail=mergedList;
+        
+        for (ListNode node:lists)
+            if (node!=null)
+                queue.add(node);
+            
+        while (!queue.isEmpty()){
+            tail.next=queue.poll();
+            tail=tail.next;
+            
+            if (tail.next!=null)
+                queue.add(tail.next);
+        }
+        return mergedList.next;
+    }
+}
