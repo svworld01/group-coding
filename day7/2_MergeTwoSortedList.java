@@ -18,15 +18,19 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode head = new ListNode(0);
-    //create a temp head    
-    ListNode p=head;
+          if(l1 == null)
+            return l2;
+          if(l2 == null)
+            return l1;
+          ListNode head = new ListNode(0);
+          //create a temp head    
+          ListNode p=head;
  
-    ListNode p1=l1;
-    ListNode p2=l2;
-    while(p1!=null && p2!=null){
-        //checking first list min value and insert it in new list
-        if(p1.val < p2.val){
+          ListNode p1=l1;
+          ListNode p2=l2;
+          while(p1!=null && p2!=null){
+          //checking first list min value and insert it in new list
+          if(p1.val < p2.val){
             p.next = p1;
             p1 = p1.next;
         }else{//or check second list's min value and insert in the new list
