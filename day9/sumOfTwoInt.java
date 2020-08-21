@@ -1,5 +1,7 @@
 *****************Akash*******************
+*****Approch**************
 
+link-https://www.youtube.com/watch?v=qq64FrA2UXQ
 class Solution {
     public int getSum(int a, int b) {
         if(b == 0) return a;
