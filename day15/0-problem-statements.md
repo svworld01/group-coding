@@ -33,11 +33,11 @@ Hey! This is day 15 of DailyCode. Here are the links of 5 problems of LeetCode.
 
 Check out day 14 solutions here –>
 
-https://github.com/svworld01/group-coding/tree/master/day13
+https://github.com/svworld01/group-coding/tree/master/day14
 
 Send a pull request with your solution for day 15 on GitHub here –>
 
-https://github.com/svworld01/group-coding/tree/master/day14
+https://github.com/svworld01/group-coding/tree/master/day15
 
 
 -----------------------------------------------------------
