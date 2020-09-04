@@ -5,7 +5,7 @@
 ### Hash
 
 Hey! This is day 16 of DailyCode. Now on we will post only 4 problems daily.
-Here are the links of 5 problems of LeetCode.
+Here are the links of 4 problems of LeetCode.
 
 1. Valid Anagram
 https://leetcode.com/problems/valid-anagram
