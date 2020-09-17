@@ -2,7 +2,7 @@
 
 ## Greedy
 
-Hey! This is day 21 of DailyCode. Here are the links of 4 problems of LeetCode.
+Hey! This is day 22 of DailyCode. Here are the links of 4 problems of LeetCode.
 
 ### ProblemStatements
 
